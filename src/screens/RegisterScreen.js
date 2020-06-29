@@ -58,7 +58,7 @@ const RegisterScreen = ({ navigation }) => {
 
 const styles = StyleSheet.create({
   viewStyles: {
-    backgroundColor: "#F2F3F7",
+    backgroundColor: "#f2f3f8",
     ...StyleSheet.absoluteFillObject,
   },
   textStyle: {

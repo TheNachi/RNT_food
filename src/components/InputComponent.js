@@ -43,13 +43,17 @@ const styles = {
     borderWidth: 0.5,
     borderRadius: 4,
     borderColor: "#ffffff",
-    shadowColor: "rgba(190, 205, 226, 0.5)",
+    shadowColor: "#BECDE2",
     shadowOpacity: 0.6,
-    shadowRadius: 10,
     margin: 10,
-    backgroundColor: "#F2F3F7",
+    // backgroundColor: "#F2F3F7", // this guy is making the border shadow not show, do not open this
     overflow: "hidden",
     elevation: 20,
+    // shadowRadius: 1, // uncomment this line to get desired view
+    shadowOffset: {
+      height: 3, // toggle this for top shadow try 6
+      width: 3 // toggle this for left shadow try 6
+    }
   },
   imageStyle: {
     height: 19,
